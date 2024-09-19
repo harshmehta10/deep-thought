@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Head() {
+  const [open, setOpen] = useState(false);
   return (
     <div
       className="mt-6"
@@ -19,8 +20,8 @@ function Head() {
       </div>
       <div className="bg-[#E9ECEF] p-4 ">
         <h3 className="font-semibold">Explore the world of management</h3>
-        <p>
-          As a project manager, you play an important reole in leading a project
+        <p className="font-Poppins-Light">
+          As a project manager, you play an important role in leading a project
           through initiation, planning, execution, monitoring, controlling and
           completion. How? Do you want to manage each and every step of your
           life?
